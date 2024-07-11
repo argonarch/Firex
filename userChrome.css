@@ -1,31 +1,28 @@
-/* Import your desired components first */
-@import url(hacks/button_effect_scale_onclick.css);
-@import url(hacks/hide_toolbox_top_bottom_borders.css);
-@import url(hacks/minimal_text_fields.css);
-@import url(hacks/minimal_toolbarbuttons.css);
-@import url(hacks/autohide_toolbox.css);
-/* @import url(hacks/custom_menupopup_check_icons.css);  */
+/* base */
+@import url("ShyFox/shy-variables.css");
+@import url("ShyFox/shy-global.css");
 
-/*Import hacks */
-@import url(hacks/sideberyModsLEFT.css); 
-@import url(hacks/menuShow.css); 
-@import url(hacks/darkContextMenu.css);
-
-:root { 
-    --tabs-border-color: transparent !important;
-}
+/* main elements */
+/* @import url("ShyFox/shy-sidebar.css"); */
+@import url("ShyFox/shy-toolbar.css");
+@import url("ShyFox/shy-navbar.css");
+@import url("ShyFox/shy-findbar.css");
+@import url("ShyFox/shy-controls.css");
+@import url(hacks/sideberyModsLEFT.css);
 
 #back-button,
 #identity-box.extensionPage,
 #identity-icon-label,
-#forward-button { display: none !important; }
-
-
-#urlbar, #searchbar .searchbar-textbox {
-  font-family: JetBrains Mono !important; font-size: 12pt 
+#forward-button {
+  display: none !important;
 }
 
-#TabsToolbar, #sidebar-header, #sidebar-splitter {
+#sidebar-header,
+#sidebar-splitter {
   display: none;
 }
-/* note: if your minimize, exit, etc menu is gone, press alt, right click the menu bar and check mark it */
+
+/* addons */
+@import url("ShyFox/shy-compact.css");
+@import url("ShyFox/shy-icons.css");
+@import url("ShyFox/shy-floating-search.css");
