@@ -28,7 +28,7 @@
 }
 
 :root {
-  --autohide-sidebar-extended: 230px;
+  --autohide-sidebar-extended: 260px;
   /* width of panel extended */
   --autohide-sidebar-collapsed: 36px;
   /* width of panel collapsed */
