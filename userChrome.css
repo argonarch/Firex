@@ -1,0 +1,12 @@
+/*Import hacks */
+@import url(firex/sideberyMods.css); 
+@import url(firex/autohide_toolbox.css); 
+@import url(firex/autohide_navigation_button.css);
+
+#urlbar, #searchbar .searchbar-textbox {
+  font-family: JetBrains Mono !important; font-size: 12pt 
+}
+
+#TabsToolbar, #sidebar-header, #sidebar-splitter {
+  display: none;
+}
